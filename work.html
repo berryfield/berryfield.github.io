@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Juliuksen portfolio">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <title>Juliuksen Portfolio</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,700' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css" />
+    <script>
+    $(function(){
+      $('a').each(function() {
+        if ($(this).prop('href') == window.location.href) {
+          $(this).addClass('current');
+        }
+      });
+    });
+    </script>
+</head>
+  <body>
+      <nav class="portfolio-navs">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="work.html">Work</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="contact">
+        <h2 style="text-align:center;">What I've been up to:</h2>
+        <h3>Event organizing:</h3>
+        <p>Aut 2014 - Spr 2015 French@Ravintola Helmi<br>17.10.2015 Breakdown Festival@Nosturi<br>11.06.2016 Helsinki Love Festival@Espan lava</p>
+        <h3>Audiovisual content:</h3>
+        <br>
+        <h3>Graphical design:<h3>
+        <br>
+        <h3>Photography:</h3>
+        <br>
+        <h3>Music:</h3>
+	<iframe width="100%" 
+	height="450" 
+	scrolling="no" 
+	frameborder="no" 
+	src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/241914913%3Fsecret_token%3Ds-T5myl&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+      </div>
+
+  </body>
+</html>
