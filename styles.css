@@ -13,6 +13,10 @@ a.current {
   font-weight: 700;
 }
 
+a:link {
+    color: red;
+}
+
 .about {
   padding-left: 20%;
   padding-right: 20%;
