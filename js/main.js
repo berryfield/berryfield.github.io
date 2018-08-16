@@ -73,6 +73,11 @@ $(window).on('load', function() {
 		type: 'image',
 		mainClass: 'img-popup-warp',
 		removalDelay: 400,
+		image: {
+			titleSrc: function(item) {
+				return item.el.attr('title');
+			}	
+		}
 	});
 
 
