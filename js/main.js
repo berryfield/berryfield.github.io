@@ -67,7 +67,7 @@ $(window).on('load', function() {
 
 
 	/*------------------
-		Popup
+		Popup title
 	--------------------*/
 	$('.portfolio-item').magnificPopup({
 		type: 'image',
@@ -76,6 +76,19 @@ $(window).on('load', function() {
 		image: {
 			titleSrc: function(item) {
 				return item.el.attr('title');
+			}	
+		}
+	});
+	/*------------------
+		Popup subtitle
+	--------------------*/
+	$('.portfolio-item').magnificPopup({
+		type: 'image',
+		mainClass: 'img-popup-warp',
+		removalDelay: 400,
+		image: {
+			titleSrc: function(item) {
+				return item.el.attr('title') + '<small>' + item.el.attr('subtitle') + '</small>';
 			}	
 		}
 	});
