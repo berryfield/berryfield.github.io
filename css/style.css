@@ -472,6 +472,14 @@ ol {
   letter-spacing: 0;
 }
 
+.title {
+  font-size: 360px;
+}
+
+.portfolio-subtitle {
+  font-size: 24px;
+}
+
 .portfolio-meta {
   padding-bottom: 45px;
 }

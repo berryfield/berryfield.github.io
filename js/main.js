@@ -88,7 +88,7 @@ $(window).on('load', function() {
 		removalDelay: 400,
 		image: {
 			titleSrc: function(item) {
-				return item.el.attr('title') + '<small>' + item.el.attr('subtitle') + '</small>';
+				return '<h3>' + item.el.attr('title') + '</h3>' + '<small>' + item.el.attr('subtitle') + '</small>';
 			}	
 		}
 	});
