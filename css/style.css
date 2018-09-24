@@ -515,6 +515,15 @@ ol {
   transform: scale(1);
 }
 
+.mfp-title h3 {
+  font-size: 2em;
+  color: white;
+}
+
+.mfp-title small {
+  font-size: 1em;
+}
+
 /*------------------------
     Footer Section
 --------------------------*/
