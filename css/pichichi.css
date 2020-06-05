@@ -703,6 +703,14 @@ body {
 	height: 120px;
 }
 
+#aboutmewrapper {
+	width: 80%;
+	position:relative;
+	border-bottom: 2px solid #EEE;
+	border-top: 2px solid #EEE;
+	background-color: #F9F9F9;
+	height: 250px;
+}
 
 #aboutme {
 	margin: 250px;
