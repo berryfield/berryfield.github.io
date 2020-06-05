@@ -143,8 +143,10 @@ h2 {
 }
 
 h3 {
-    font-size: 1.17em;
+    font-size: 1em;
     margin: 1em 0;
+    text-align: left;
+    font-weight: normal;
 }
 
 h4 {
@@ -718,6 +720,24 @@ body {
 	text-align: justify;
 	height: 200px;
 } 
+
+#portfolio {
+	margin-left: 250px;
+	line-height: 20px;
+	text-align: justify;
+	height: 830px;
+} 
+
+#back {
+	margin-top: 200px;
+	margin-left: 250px;
+	margin-bottom: 30px;
+	text-align: left;
+	text-decoration: underline;
+	font-size: 23px;
+	font-weight: 300;
+  	padding-bottom: 0px;
+}
 
 
 #contactwrapper {
