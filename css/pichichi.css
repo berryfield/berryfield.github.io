@@ -727,8 +727,8 @@ body {
 	line-height: 32px;
 	text-align: left;
 	height: auto;
-	padding-left: 140px;
-	padding-right: 140px;
+	padding-left: 160px;
+	padding-right: 160px;
 	padding-bottom: 40px;
 	padding-top: 15px;
 	font-size: 1.2em;
@@ -1070,7 +1070,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	text-transform: uppercase;
 	color: #333;
 	letter-spacing: 4px;
-	font-size: 3.0em;
+	font-size: 2.5em;
 	line-height: 125px;
 	margin: 0px;
 	font-family: 'Roboto Slab', serif;
@@ -1154,7 +1154,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	background: #FFF;
 	z-index: 10000;
 	height: 120px;
-	overflow: visible;
+	overflow: hidden;
 	-webkit-transition: height 0.3s;
 	-moz-transition: height 0.3s;
 	transition: height 0.3s;
@@ -1185,7 +1185,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 
 .cbp-af-header.cbp-af-header-shrink h1 {line-height: 90px;}
 
-.cbp-af-header.cbp-af-header-shrink h1 {font-size: 2em;}
+.cbp-af-header.cbp-af-header-shrink h1 {font-size: 1.5em;}
 	
 }
  
