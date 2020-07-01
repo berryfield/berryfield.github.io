@@ -150,7 +150,7 @@ h3 {
 }
 
 h4 {
-    font-size: 1em;
+    font-size: 1.1em;
     margin: 1.33em 0;
     text-align: center;
     font-weight: normal;
@@ -731,7 +731,7 @@ body {
 	padding-right: 160px;
 	padding-bottom: 40px;
 	padding-top: 15px;
-	font-size: 1.2em;
+	font-size: 1.1em;
 } 
 
 
@@ -778,12 +778,12 @@ body {
 
 #map {
 	float: left;
-	height: 425px;
+	height: 440px;
 	width: 679px;
 	margin-top: 83px;
 	margin-left: 150px;
 	line-height: 32px;
-	background-image: url('../images/map.png');	
+	background-image: url('../images/map.png');
 }
 
 
@@ -955,8 +955,17 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 		}
 
 
-
-
+@media screen and (max-width: 1340px) {
+#map {
+    float: left;
+    height: 440px;
+    width: 600px;
+    margin-top: 83px;
+    margin-left: 90px;
+    line-height: 32px;
+    background-image: url(../images/map.png);
+    }
+    }
  
 /* Example for media query: change number of items per row */
  
@@ -998,7 +1007,7 @@ input[type="text"], input[type="password"], input[type="email"], textarea, selec
 	margin-top: 83px;
 	margin-left: 90px;
 	line-height: 32px;
-	background-image: url('../images/map.png');	
+	background-image: url('../images/crop.png');
 }
 	
 }
